@@ -46,10 +46,10 @@ export default {
       this.$router.push({ name: "home" });
     },
     loadLogIn: function(){
-      this.$router.push({name: "logIn"})
+      this.$router.push({name: "logIn"});
     },
     loadSignUp: function(){
-      this.$router.push({name: "signUp"})
+      this.$router.push({name: "signUp"});
     },
     completedLogIn: function(data) {
       localStorage.setItem("isAuth", true);
